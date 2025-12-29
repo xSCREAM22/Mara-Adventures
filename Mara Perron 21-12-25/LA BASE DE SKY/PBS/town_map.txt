@@ -1,0 +1,10 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[0]
+Name = Región Eón
+Filename = mapRegion0.png
+#-------------------------------
+[1]
+Name = Tiall
+Filename = mapRegion1.png
+Point = 13,16,Aquí

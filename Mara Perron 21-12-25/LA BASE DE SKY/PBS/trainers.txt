@@ -1,0 +1,279 @@
+﻿
+#-------------------------------
+[AILYN0,Desconocida]
+LoseText = ¡Qué gran combate!
+Pokemon = CUFANT,5
+    Name = Cufy
+    Moves = TACKLE,GROWL
+    AbilityIndex = 1
+    Gender = female
+    Ball = HEAVYBALL
+#-------------------------------
+[JOVEN,Bisoño]
+LoseText = ¡Qué gran combate!
+Pokemon = SKWOVET,4
+Pokemon = LECHONK,4
+#-------------------------------
+[CAZABICHOSF,Seryl]
+LoseText = ¡Qué gran combate!
+Pokemon = GRUBBIN,5
+Pokemon = DWEBBLE,5
+    Moves = TACKLE,GROWL
+#-------------------------------
+[CAZABICHOS,Surkey]
+LoseText = ¡Qué gran combate!
+Pokemon = BLIPBUG,5
+Pokemon = NINCADA,5
+    Moves = SCRATCH,ABSORB,HARDEN
+#-------------------------------
+[REDMOND0,¿¿??]
+LoseText = ¡Qué gran combate!
+Pokemon = SLOWPOKE,6
+    Moves = WATERGUN,CONFUSION
+    AbilityIndex = 1
+    Gender = male
+    Ball = LOVEBALL
+#-------------------------------
+[AILYN1,Ailyn]
+Items = POTION
+LoseText = ¡Qué gran combate!
+Pokemon = CUFANT,8
+    Name = Cufy
+    Moves = TACKLE,GROWL
+    AbilityIndex = 1
+    Gender = female
+    Ball = HEAVYBALL
+Pokemon = BOUNSWEET,6
+    Moves = RAPIDSPIN,TRAILBLAZE
+    Ball = NESTBALL
+#-------------------------------
+[REDMOND1,Redmond]
+LoseText = ¡Qué gran combate!
+Pokemon = SLOWPOKE,8
+    Moves = WATERGUN,CONFUSION
+    AbilityIndex = 1
+    Gender = male
+    Ball = LOVEBALL
+Pokemon = PICHU,6
+#-------------------------------
+[RECLUTAVIL,Vil1]
+LoseText = ¡Qué gran combate!
+Pokemon = ABRA,10
+    Moves = SHOCKWAVE,CONFUSION,CHILLINGWATER
+Pokemon = DOTTLER,10
+    Moves = STRUGGLEBUG,CONFUSION,ROUND,ABSORB
+    Item = ORANBERRY
+#-------------------------------
+[RECLUTAVILMA,Vilma1]
+LoseText = ¡Qué gran combate!
+Pokemon = RALTS,10
+Pokemon = EXEGGCUTE,10
+#-------------------------------
+[LOBODEMAR,Dino]
+Items = POTION
+LoseText = ¡Qué gran combate!
+Pokemon = SOBBLE,12
+    Moves = WATERPULSE,MUDSHOT,MIRRORSHOT
+    Item = ORANBERRY
+    Shiny = true
+#-------------------------------
+[INSPECTOR,Morrigan]
+Items = SUPERPOTION
+LoseText = ...
+Pokemon = ELECTRIKE,13
+    Moves = BITE,SHOCKWAVE,QUICKATTACK,THUNDERWAVE
+Pokemon = ZORUA,13
+    Moves = SHADOWSNEAK,EMBER,HONECLAWS
+Pokemon = IVYSAUR,10
+#-------------------------------
+[AILYNBAR,Ailyn]
+LoseText = ...
+Pokemon = CUFANT,13
+    AbilityIndex = 1
+    Gender = female
+    Ball = HEAVYBALL
+Pokemon = BOUNSWEET,13
+#-------------------------------
+[RECLUTASVV,Vil y Vilma]
+Items = SUPERPOTION,SUPERPOTION
+LoseText = ...
+Pokemon = STARYU,13
+    Moves = CONFUSION,CHILLINGWATER
+Pokemon = PSYDUCK,13
+    Moves = CONFUSION,CHILLINGWATER
+#-------------------------------
+[REDMONDACOM,Redmond]
+LoseText = ...
+Pokemon = SLOWPOKE,13
+    AbilityIndex = 1
+    Gender = male
+    Ball = LOVEBALL
+Pokemon = PICHU,13
+#-------------------------------
+[RECLUTASCT,Cosser y Tejert]
+LoseText = ...
+Pokemon = SOLOSIS,13
+Pokemon = MIMEJR,13
+#-------------------------------
+[RECLUTASBB,Burk y Blare]
+LoseText = ...
+Pokemon = DOTTLER,13
+    Moves = STRUGGLEBUG,CONFUSION,ROUND,ABSORB
+Pokemon = BELDUM,13
+#-------------------------------
+[COMANDANTE,Bowie]
+LoseText = ...
+Pokemon = BRONZOR,14
+Pokemon = ESPURR,16
+#-------------------------------
+[AROMACHICA,Fuet]
+LoseText = ...
+Pokemon = KOFFING,14
+Pokemon = PARAS,14
+#-------------------------------
+[KARATECA,Cerisio]
+LoseText = ...
+Pokemon = TIMBURR,14
+Pokemon = TYROGUE,14
+#-------------------------------
+[CAMPISTA,Berry]
+LoseText = ...
+Pokemon = PIKIPEK,14
+Pokemon = BUDEW,14
+#-------------------------------
+[CORTESANA,Gabriela]
+LoseText = ...
+Pokemon = SNORUNT,15
+   Moves = POWDERSNOW,ASTONISH
+   Gender = female
+Pokemon = BUNEARY,15
+   Moves = BABYDOLLEYES,QUICKATTACK,SWEETKISS
+   Gender = female
+#-------------------------------
+[CORTESANA,Lilian]
+LoseText = ...
+Pokemon = SMOOCHUM,15
+   Moves = LICK,SWEETKISS,CONFUSION,POWDERSNOW
+   Gender = female
+Pokemon = SALANDIT,15
+   Moves = EMBER,POISONGAS,SWEETSCENT,ATTRACT
+   Gender = female
+#-------------------------------
+[CAMPER,Liam]
+LoseText = ¡Qué gran combate!
+Pokemon = DIGLETT,10
+Pokemon = BONSLY,11
+#-------------------------------
+[LEADER_Brock,Brock]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = ¡Muy bien hecho!
+Pokemon = GEODUDE,12
+    Moves = DEFENSECURL,HEADSMASH,ROCKPOLISH,ROCKTHROW
+    AbilityIndex = 0
+    Gender = male
+	Form = 1
+    IV = 20,20,20,20,20,20
+Pokemon = ONIX,14
+    Name = Rocky
+    Moves = HEADSMASH,ROCKTHROW,RAGE,ROCKTOMB
+    AbilityIndex = 0
+    Item = SITRUSBERRY
+    Gender = male
+    IV = 20,20,20,20,20,20
+    Shiny = true
+    Ball = HEAVYBALL
+#-------------------------------
+[TEAMROCKET_M,Grunt,1]
+LoseText = ¡Eres muy fuerte para mí! Este diálogo de derrota se añade en el archivo PBS trainers.txt
+Pokemon = WEEPINBELL,21
+    Shadow = true
+#-------------------------------
+[TEAMROCKET_F,Grunt,1]
+LoseText = ¡Eres muy fuerte para mí!
+Pokemon = BURMY,19
+Pokemon = WINGULL,19
+Pokemon = ELECTABUZZ,20
+    Shadow = true
+#-------------------------------
+[YOUNGSTER,Ben]
+LoseText = Vaya, he perdido.
+Pokemon = RATTATA,11
+Pokemon = EKANS,11
+#-------------------------------
+[CAMPER,Jeff]
+LoseText = ¡Qué gran combate!
+Pokemon = SPEAROW,16
+Pokemon = SENTRET,16
+#-------------------------------
+[CAMPER,Jeff,1]
+LoseText = ¡Me has derrotado de nuevo!
+Pokemon = FEAROW,29
+Pokemon = FURRET,29
+#-------------------------------
+[PICNICKER,Susie]
+LoseText = ¡Derrotada! ¡Oh, no!
+Pokemon = MEOWTH,18
+#-------------------------------
+[PICNICKER,Susie,1]
+LoseText = ¡Derrotada! ¡Oh, no!
+Pokemon = PERSIAN,32
+#-------------------------------
+[HIKER,Ford]
+LoseText = ¡Eres muy fuerte para mí!
+Pokemon = MACHOP,19
+#-------------------------------
+[FISHERMAN,Andrew]
+LoseText = ¡Perdí!
+Pokemon = MAGIKARP,14
+Pokemon = MAGIKARP,18
+#-------------------------------
+[BEAUTY,Bridget]
+LoseText = ¡Mi Skitty!
+Pokemon = SKITTY,18
+#-------------------------------
+[LASS,Crissy]
+LoseText = ¡No tienes que ganar de forma tan convincente!
+Pokemon = PLUSLE,17
+Pokemon = MINUN,17
+#-------------------------------
+[COOLCOUPLE,Alice & Bob]
+LoseText = ¡Nuestro trabajo en equipo falló!
+Pokemon = TURTWIG,19
+Pokemon = CHIMCHAR,19
+#-------------------------------
+[POKEMONTRAINER_May,Aura]
+LoseText = ...
+Pokemon = COMBUSKEN,19
+#-------------------------------
+[SWIMMER2_F,Ariel]
+LoseText = ¡Perdí!
+Pokemon = STARYU,15
+Pokemon = GOLDEEN,11
+#-------------------------------
+[RIVAL1,Blue]
+LoseText = Bah, no me he esforzado mucho.
+Pokemon = PIDGEOTTO,17
+Pokemon = RATTATA,15
+Pokemon = BULBASAUR,18
+#-------------------------------
+[RIVAL1,Blue,1]
+LoseText = Bah, no me he esforzado mucho.
+Pokemon = PIDGEOTTO,17
+Pokemon = RATTATA,15
+Pokemon = CHARMANDER,18
+#-------------------------------
+[RIVAL1,Blue,2]
+LoseText = Bah, no me he esforzado mucho.
+Pokemon = PIDGEOTTO,17
+Pokemon = RATTATA,15
+Pokemon = SQUIRTLE,18
+#-------------------------------
+[CHAMPION,Blue]
+LoseText = ¡Menudo combate!
+Pokemon = VENUSAUR,63
+    Item = SITRUSBERRY
+Pokemon = CHARIZARD,63
+    Item = SITRUSBERRY
+Pokemon = BLASTOISE,63
+    Item = SITRUSBERRY
+#-------------------------------

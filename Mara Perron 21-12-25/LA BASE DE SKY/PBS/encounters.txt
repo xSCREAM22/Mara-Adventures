@@ -1,0 +1,15 @@
+﻿# Consulta la documentación en la wiki para aprender cómo editar este archivo.
+#-------------------------------
+[084] # Jardín Inf Izq
+LandNight,21
+    40,GRUBBIN,4,5
+    25,PETILIL,4,5
+    25,SPINARAK,4,5
+    10,DWEBBLE,4,5
+#-------------------------------
+[085] # Jardín Inf Der
+LandNight,21
+    40,GRUBBIN,4,5
+    25,PETILIL,4,5
+    25,SPINARAK,4,5
+    10,DWEBBLE,4,5

@@ -1,0 +1,743 @@
+﻿# Consulta la documentación en la wiki para aprender cómo editar este archivo.
+#-------------------------------
+[001]   # Intro
+Name = Intro
+#-------------------------------
+[002]   # Pueblo Inicio
+Name = Pueblo Inicio
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,12
+BattleBack = field
+#-------------------------------
+[003]   # Casa del jugador
+Name = Casa del jugador
+HealingSpot = 2,8,8
+MapPosition = 0,13,12
+#-------------------------------
+[004]   # Laboratorio Pokémon
+Name = Laboratorio Pokémon
+MapPosition = 0,13,12
+#-------------------------------
+[005]   # Ruta 1
+Name = Ruta 1
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,11
+BattleBack = field
+#-------------------------------
+[006]   # Casa de César
+Name = Casa de César
+MapPosition = 0,13,11
+#-------------------------------
+[007]   # Ciudad Lugano
+Name = Ciudad Lugano
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,10
+MapSize = 2,11
+#-------------------------------
+[008]   # Casa de Dalia
+Name = Casa de Dalia
+MapPosition = 0,13,12
+#-------------------------------
+[009]   # Centro Pokémon
+Name = Centro Pokémon
+HealingSpot = 8,17,11
+MapPosition = 0,14,10
+#-------------------------------
+[010]   # Gimnasio Lugano
+Name = Gimnasio Lugano
+MapPosition = 0,13,10
+BattleBack = indoor3
+Environment = Rock
+Flags = DisableBoxLink
+#-------------------------------
+[011]   # Instituto Pokémon
+Name = Instituto Pokémon
+MapPosition = 0,14,10
+#-------------------------------
+[012]   # Condominio de Lugano
+Name = Condominio de Lugano
+MapPosition = 0,14,10
+#-------------------------------
+[013]   # Casino
+Name = Casino
+MapPosition = 0,14,10
+#-------------------------------
+[014]   # Lugano CC P1
+Name = Lugano CC P1
+MapPosition = 0,13,10
+#-------------------------------
+[015]   # Lugano CC P2
+Name = Lugano CC P2
+MapPosition = 0,13,10
+#-------------------------------
+[016]   # Lugano CC P3
+Name = Lugano CC P3
+MapPosition = 0,13,10
+#-------------------------------
+[017]   # Lugano CC P4
+Name = Lugano CC P4
+MapPosition = 0,13,10
+#-------------------------------
+[018]   # Lugano CC P5
+Name = Lugano CC P5
+MapPosition = 0,13,10
+#-------------------------------
+[019]   # Lugano CC Azotea
+Name = Lugano CC Azotea
+MapPosition = 0,13,10
+#-------------------------------
+[020]   # Lugano CC Ascensor
+Name = Lugano CC Ascensor
+MapPosition = 0,13,10
+#-------------------------------
+[021]   # Ruta 2
+Name = Ruta 2
+Outdoor = true
+ShowArea = true
+Weather = Rain,100
+MapPosition = 0,14,8
+BattleBack = field
+MapSize = 1,11
+#-------------------------------
+[023]   # Pueblo Macabeo
+Name = Pueblo Macabeo
+Outdoor = true
+ShowArea = true
+MapPosition = 0,15,8
+#-------------------------------
+[024]   # Centro Pokémon Macabeo
+Name = Centro Pokémon Macabeo
+HealingSpot = 23,11,15
+MapPosition = 0,15,8
+#-------------------------------
+[025]   # Tienda Pokémon
+Name = Tienda Pokémon
+MapPosition = 0,15,8
+#-------------------------------
+[026]   # Club de Fans Pokémon
+Name = Club de Fans Pokémon
+MapPosition = 0,15,8
+#-------------------------------
+[027]   # Guardería Pokémon
+Name = Guardería Pokémon
+MapPosition = 0,15,8
+#-------------------------------
+[028]   # Parque Natural
+Name = Parque Natural
+Outdoor = true
+ShowArea = true
+MapPosition = 0,16,8
+BattleBack = field
+Flags = MossRock,BugContest
+#-------------------------------
+[029]   # Entrada Parque Natural
+Name = Entrada Parque Natural
+Bicycle = true
+MapPosition = 0,16,8
+Flags = BugContestReception
+#-------------------------------
+[030]   # Pabellón Parque Natural
+Name = Pabellón Parque Natural
+MapPosition = 0,16,8
+Flags = BugContestReception
+#-------------------------------
+[031]   # Ruta 3
+Name = Ruta 3
+Outdoor = true
+ShowArea = true
+MapPosition = 0,14,6
+BattleBack = field
+MapSize = 2,1101
+#-------------------------------
+[033]   # Mazmorra Bosque
+Name = Mazmorra Bosque
+Dungeon = true
+#-------------------------------
+[034]   # Cueva de Hielo
+Name = Cueva de Hielo
+Bicycle = true
+MapPosition = 0,15,6
+BattleBack = cave1
+Environment = Cave
+Flags = IceRock
+#-------------------------------
+[035]   # Meseta Añil exterior
+Name = Meseta Añil exterior
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,6
+#-------------------------------
+[036]   # Liga Pokémon entrada
+Name = Liga Pokémon entrada
+HealingSpot = 35,17,7
+MapPosition = 0,13,6
+#-------------------------------
+[037]   # Liga Pokémon sala 1
+Name = Liga Pokémon sala 1
+MapPosition = 0,13,6
+BattleBack = elite1
+Flags = DisableBoxLink
+#-------------------------------
+[038]   # Hall de la Fama
+Name = Hall de la Fama
+MapPosition = 0,13,6
+Flags = DisableBoxLink
+#-------------------------------
+[039]   # Ruta 4
+Name = Ruta 4
+Outdoor = true
+ShowArea = true
+MapPosition = 0,11,6
+BattleBack = field
+MapSize = 2,11
+#-------------------------------
+[040]   # Ruta 4 Carril Bici
+Name = Ruta 4 Carril Bici
+Outdoor = true
+ShowArea = true
+BicycleAlways = true
+MapPosition = 0,11,6
+#-------------------------------
+[041]   # Ruta 5
+Name = Ruta 5
+Outdoor = true
+ShowArea = true
+BicycleAlways = true
+MapPosition = 0,11,7
+MapSize = 1,111
+#-------------------------------
+[044]   # Ruta 6
+Name = Ruta 6
+Outdoor = true
+ShowArea = true
+MapPosition = 0,11,10
+BattleBack = field
+MapSize = 2,11
+#-------------------------------
+[045]   # Ruta 6 Carril Bici
+Name = Ruta 6 Carril Bici
+Outdoor = true
+ShowArea = true
+BicycleAlways = true
+MapPosition = 0,11,10
+#-------------------------------
+[046]   # Ruta 4 Carril Bici entrada
+Name = Ruta 4 Carril Bici entrada
+Bicycle = true
+MapPosition = 0,12,6
+#-------------------------------
+[047]   # Ruta 7
+Name = Ruta 7
+Outdoor = true
+ShowArea = true
+Weather = Rain,0
+MapPosition = 0,15,10
+BattleBack = rocky
+MapSize = 2,11
+Environment = Rock
+#-------------------------------
+[048]   # Pueblo Berdán
+Name = Pueblo Berdán
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,23,11
+SnapEdges = true
+TrainerBattleBGM = Pueblo-Berdán
+Environment = Grass
+#-------------------------------
+[049]   # Cueva de Roca P1
+Name = Cueva de Roca P1
+Bicycle = true
+MapPosition = 0,16,10
+BattleBack = cave1
+Environment = Cave
+Flags = Magnetic,DistortionWorld
+#-------------------------------
+[050]   # Cueva de Roca S1
+Name = Cueva de Roca S1
+Bicycle = true
+MapPosition = 0,16,10
+DarkMap = true
+BattleBack = cave3
+Environment = Cave
+Flags = Magnetic,DistortionWorld
+#-------------------------------
+[051]   # Mazmorra
+Name = Mazmorra
+Bicycle = true
+MapPosition = 0,16,10
+Dungeon = true
+BattleBack = cave2
+Environment = Cave
+Flags = Magnetic,DistortionWorld,ScaleWildEncounterLevels
+#-------------------------------
+[052]   # Frente de Batalla
+Name = Frente de Batalla
+Outdoor = true
+ShowArea = true
+MapPosition = 0,17,10
+#-------------------------------
+[053]   # Centro Pokémon Frente de Batalla
+Name = Centro Pokémon Frente de Batalla
+HealingSpot = 52,17,14
+MapPosition = 0,17,10
+#-------------------------------
+[054]   # Tienda Frente de Batalla
+Name = Tienda Frente de Batalla
+MapPosition = 0,17,10
+#-------------------------------
+[055]   # Torre Batalla
+Name = Torre Batalla
+HealingSpot = 52,30,10
+MapPosition = 0,17,10
+#-------------------------------
+[056]   # Arena Torre Batalla
+Name = Arena Torre Batalla
+MapPosition = 0,17,10
+BattleBack = indoor1
+Flags = DisableBoxLink
+#-------------------------------
+[057]   # Vestíbulo Copa Estadio
+Name = Vestíbulo Copa Estadio
+MapPosition = 0,17,10
+#-------------------------------
+[058]   # Palacio Batalla
+Name = Palacio Batalla
+MapPosition = 0,17,10
+#-------------------------------
+[059]   # Battle Palace arena
+Name = Battle Palace arena
+MapPosition = 0,17,10
+BattleBack = indoor1
+Flags = DisableBoxLink
+#-------------------------------
+[060]   # Dojo Batalla
+Name = Dojo Batalla
+MapPosition = 0,17,10
+#-------------------------------
+[061]   # Arena Dojo Batalla
+Name = Arena Dojo Batalla
+MapPosition = 0,17,10
+BattleBack = indoor1
+Flags = DisableBoxLink
+#-------------------------------
+[062]   # Fábrica Batalla
+Name = Fábrica Batalla
+MapPosition = 0,17,10
+#-------------------------------
+[063]   # Pasillo inicial Fábrica Batalla
+Name = Pasillo inicial Fábrica Batalla
+MapPosition = 0,17,10
+Flags = DisableBoxLink
+#-------------------------------
+[064]   # Arena Fábrica Batalla
+Name = Arena Fábrica Batalla
+MapPosition = 0,17,10
+BattleBack = indoor1
+Flags = DisableBoxLink
+#-------------------------------
+[065]   # Pasillo Fábrica Batalla
+Name = Pasillo Fábrica Batalla
+MapPosition = 0,17,10
+Flags = DisableBoxLink
+#-------------------------------
+[066]   # Afueras Zona Safari
+Name = Afueras Zona Safari
+Outdoor = true
+ShowArea = true
+MapPosition = 0,12,12
+BattleBack = field
+#-------------------------------
+[067]   # Entrada Zona Safari
+Name = Entrada Zona Safari
+MapPosition = 0,12,12
+#-------------------------------
+[068]   # Zona Safari
+Name = Zona Safari
+Outdoor = true
+ShowArea = true
+MapPosition = 0,12,12
+SafariMap = true
+BattleBack = forest
+Environment = Forest
+#-------------------------------
+[069]   # Ruta 8
+Name = Ruta 8
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,13
+DiveMap = 70
+BattleBack = field
+#-------------------------------
+[070]   # Ruta 8 Fondo marino
+Name = Ruta 8 Fondo marino
+MapPosition = 0,13,13
+BattleBack = underwater
+Environment = Underwater
+#-------------------------------
+[071]   # Ruta 8 Puerto
+Name = Ruta 8 Puerto
+MapPosition = 0,13,13
+#-------------------------------
+[072]   # Isla Origen
+Name = Isla Origen
+Outdoor = true
+ShowArea = true
+Weather = Storm,50
+MapPosition = 0,18,17
+BattleBack = field
+Flags = DistortionWorld
+#-------------------------------
+[073]   # Isla Dyson
+Name = Isla Dyson
+Outdoor = true
+ShowArea = true
+MapPosition = 0,22,16
+BattleBack = field
+Flags = DistortionWorld
+#-------------------------------
+[074]   # Ruta 6 Carril Bici entrada
+Name = Ruta 6 Carril Bici entrada
+Bicycle = true
+MapPosition = 0,12,10
+#-------------------------------
+[075]   # Región Tiall
+Name = Región Tiall
+Outdoor = true
+MapPosition = 1,13,16
+BattleBack = city
+#-------------------------------
+[076]   # CP Berdán
+Name = CP Berdán
+ShowArea = true
+HealingSpot = 76,12,26
+MapPosition = 0,23,11
+SnapEdges = true
+BattleBack = tienda
+#-------------------------------
+[077]   # Casa Mara
+Name = Casa Mara
+ShowArea = true
+HealingSpot = 77,9,23
+MapPosition = 0,23,11
+SnapEdges = true
+#-------------------------------
+[078]   # Casa Pokéfútbol
+Name = Casa Pokéfútbol
+ShowArea = true
+MapPosition = 0,23,11
+SnapEdges = true
+#-------------------------------
+[079]   # Casa Ianto
+Name = Casa Ianto
+ShowArea = true
+MapPosition = 0,23,11
+SnapEdges = true
+#-------------------------------
+[080]   # Costa Freya
+Name = Costa Freya
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,23,10
+SnapEdges = true
+Environment = Sand
+#-------------------------------
+[081]   # Cañas Berdán
+Name = Cañas Berdán
+ShowArea = true
+MapPosition = 0,23,10
+SnapEdges = true
+#-------------------------------
+[083]   # Ruta Freya 
+Name = Ruta Freya 
+Outdoor = true
+Bicycle = true
+HealingSpot = 83,9,36
+MapPosition = 0,25,7
+SnapEdges = true
+Environment = Sand
+#-------------------------------
+[084]   # Jardín Inf Izq
+Name = Jardín Inf Izq
+ShowArea = true
+Bicycle = true
+HealingSpot = 84,11,16
+MapPosition = 0,25,6
+SnapEdges = true
+Environment = Forest
+#-------------------------------
+[085]   # Jardín Inf Der
+Name = Jardín Inf Der
+ShowArea = true
+Bicycle = true
+HealingSpot = 85,25,11
+MapPosition = 0,25,6
+SnapEdges = true
+Environment = Forest
+#-------------------------------
+[086]   # Jardín Freya Central
+Name = Jardín Freya Central
+ShowArea = true
+Bicycle = true
+HealingSpot = 86,12,2
+MapPosition = 0,25,4
+SnapEdges = true
+Environment = Forest
+#-------------------------------
+[087]   # Jardín Superior
+Name = Jardín Superior
+ShowArea = true
+Bicycle = true
+HealingSpot = 87,21,17
+MapPosition = 0,25,4
+SnapEdges = true
+Environment = Forest
+#-------------------------------
+[088]   # Academia Eón
+Name = Academia Eón
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,25,1
+SnapEdges = true
+#-------------------------------
+[089]   # Entrada Academia I
+Name = Entrada Academia I
+Outdoor = true
+ShowArea = true
+MapPosition = 0,25,3
+SnapEdges = true
+#-------------------------------
+[090]   # Entrada Academia D
+Name = Entrada Academia D
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,25,3
+SnapEdges = true
+#-------------------------------
+[091]   # Academia Central 
+Name = Academia Central 
+Outdoor = true
+ShowArea = true
+Bicycle = true
+HealingSpot = 91,8,35
+MapPosition = 0,25,2
+SnapEdges = true
+#-------------------------------
+[092]   # Prezona Estadio
+Name = Prezona Estadio
+ShowArea = true
+MapPosition = 0,24,2
+SnapEdges = true
+Environment = Grass
+#-------------------------------
+[093]   # Bayeros Estadio
+Name = Bayeros Estadio
+ShowArea = true
+MapPosition = 0,24,2
+SnapEdges = true
+#-------------------------------
+[094]   # Estadio Academia
+Name = Estadio Academia
+ShowArea = true
+HealingSpot = 94,9,15
+SnapEdges = true
+#-------------------------------
+[095]   # Gimnasio Academia
+Name = Gimnasio Academia
+ShowArea = true
+MapPosition = 0,26,2
+SnapEdges = true
+#-------------------------------
+[096]   # Salas Gym
+Name = Salas Gym
+ShowArea = true
+MapPosition = 0,26,2
+SnapEdges = true
+#-------------------------------
+[097]   # Sala Cardio
+Name = Sala Cardio
+ShowArea = true
+MapPosition = 0,26,2
+SnapEdges = true
+#-------------------------------
+[098]   # Sala Fuerza
+Name = Sala Fuerza
+ShowArea = true
+MapPosition = 0,26,2
+SnapEdges = true
+#-------------------------------
+[099]   # Sala Velocidad
+Name = Sala Velocidad
+ShowArea = true
+MapPosition = 0,26,2
+SnapEdges = true
+#-------------------------------
+[100]   # Sala Precisión
+Name = Sala Precisión
+ShowArea = true
+MapPosition = 0,26,2
+SnapEdges = true
+#-------------------------------
+[101]   # Recepción Academia
+Name = Recepción Academia
+ShowArea = true
+MapPosition = 0,25,1
+SnapEdges = true
+#-------------------------------
+[102]   # Sótano
+Name = Sótano
+ShowArea = true
+HealingSpot = 102,16,7
+MapPosition = 0,25,1
+SnapEdges = true
+TrainerBattleBGM = Phoenix-Writ Sotano Academia
+#-------------------------------
+[103]   # Cuarto Conserje
+Name = Cuarto Conserje
+ShowArea = true
+MapPosition = 0,25,1
+SnapEdges = true
+#-------------------------------
+[104]   # Sala Crimen
+Name = Sala Crimen
+ShowArea = true
+MapPosition = 0,25,1
+SnapEdges = true
+#-------------------------------
+[105]   # Sala Pinturas
+Name = Sala Pinturas
+ShowArea = true
+MapPosition = 0,25,1
+SnapEdges = true
+#-------------------------------
+[107]   # Sala Laboratorio
+Name = Sala Laboratorio
+ShowArea = true
+MapPosition = 0,25,1
+SnapEdges = true
+#-------------------------------
+[108]   # Sala Cerrada
+Name = Sala Cerrada
+ShowArea = true
+MapPosition = 0,25,1
+SnapEdges = true
+#-------------------------------
+[109]   # Sala Vacia
+Name = Sala Vacia
+ShowArea = true
+MapPosition = 0,25,1
+SnapEdges = true
+#-------------------------------
+[110]   # Sala Avituallamiento
+Name = Sala Avituallamiento
+ShowArea = true
+MapPosition = 0,25,1
+SnapEdges = true
+#-------------------------------
+[111]   # Sala Vestuarios
+Name = Sala Vestuarios
+ShowArea = true
+MapPosition = 0,25,1
+SnapEdges = true
+#-------------------------------
+[112]   # Sala Juicio Escolar
+Name = Sala Juicio Escolar
+ShowArea = true
+MapPosition = 0,25,1
+SnapEdges = true
+#-------------------------------
+[113]   # 1P-Central
+Name = 1P-Central
+ShowArea = true
+MapPosition = 0,25,1
+SnapEdges = true
+#-------------------------------
+[114]   # Hab Chicas
+Name = Hab Chicas
+ShowArea = true
+MapPosition = 0,25,1
+SnapEdges = true
+#-------------------------------
+[115]   # Hab Chicos
+Name = Hab Chicos
+ShowArea = true
+MapPosition = 0,25,1
+SnapEdges = true
+#-------------------------------
+[116]   # Clase B
+Name = Clase B
+ShowArea = true
+MapPosition = 0,25,1
+SnapEdges = true
+#-------------------------------
+[117]   # Clase A
+Name = Clase A
+ShowArea = true
+MapPosition = 0,25,1
+SnapEdges = true
+#-------------------------------
+[118]   # Planta 1 Oeste
+Name = Planta 1 Oeste
+ShowArea = true
+HealingSpot = 118,12,21
+MapPosition = 0,24,1
+SnapEdges = true
+#-------------------------------
+[119]   # Clase Retratos
+Name = Clase Retratos
+ShowArea = true
+MapPosition = 0,24,1
+SnapEdges = true
+#-------------------------------
+[120]   # Clase Químicos
+Name = Clase Químicos
+ShowArea = true
+MapPosition = 0,24,1
+SnapEdges = true
+#-------------------------------
+[121]   # Despachos
+Name = Despachos
+ShowArea = true
+MapPosition = 0,24,1
+SnapEdges = true
+#-------------------------------
+[122]   # Despacho Morrigan Escena
+Name = Despacho Morrigan Escena
+#-------------------------------
+[123]   # Despacho Morrigan
+Name = Despacho Morrigan
+ShowArea = true
+MapPosition = 0,24,1
+SnapEdges = true
+#-------------------------------
+[124]   # Biblioteca
+Name = Biblioteca
+ShowArea = true
+MapPosition = 0,24,1
+SnapEdges = true
+#-------------------------------
+[125]   # Comedor Academia
+Name = Comedor Academia
+ShowArea = true
+MapPosition = 0,26,1
+SnapEdges = true
+#-------------------------------
+[126]   # Cámara Frigorífica
+Name = Cámara Frigorífica
+ShowArea = true
+MapPosition = 0,26,1
+SnapEdges = true
+#-------------------------------
+[127]   # Interior Cámara
+Name = Interior Cámara
+ShowArea = true
+Weather = Snow,100
+MapPosition = 0,26,1
+SnapEdges = true
