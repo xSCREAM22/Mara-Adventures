@@ -13,3 +13,4 @@ LandNight,21
     25,PETILIL,4,5
     25,SPINARAK,4,5
     10,DWEBBLE,4,5
+#-------------------------------

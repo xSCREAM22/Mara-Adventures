@@ -37,24 +37,24 @@ Pokemon = SLOWPOKE,6
 [AILYN1,Ailyn]
 Items = POTION
 LoseText = ¡Qué gran combate!
+Pokemon = BOUNSWEET,6
+    Moves = RAPIDSPIN,TRAILBLAZE
+    Ball = NESTBALL
 Pokemon = CUFANT,8
     Name = Cufy
     Moves = TACKLE,GROWL
     AbilityIndex = 1
     Gender = female
     Ball = HEAVYBALL
-Pokemon = BOUNSWEET,6
-    Moves = RAPIDSPIN,TRAILBLAZE
-    Ball = NESTBALL
 #-------------------------------
 [REDMOND1,Redmond]
 LoseText = ¡Qué gran combate!
+Pokemon = PICHU,6
 Pokemon = SLOWPOKE,8
     Moves = WATERGUN,CONFUSION
     AbilityIndex = 1
     Gender = male
     Ball = LOVEBALL
-Pokemon = PICHU,6
 #-------------------------------
 [RECLUTAVIL,Vil1]
 LoseText = ¡Qué gran combate!
