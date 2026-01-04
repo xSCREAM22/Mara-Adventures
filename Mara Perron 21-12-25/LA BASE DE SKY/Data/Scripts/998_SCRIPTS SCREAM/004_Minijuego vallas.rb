@@ -8,7 +8,7 @@
 class MinijuegoSaltoValla
   ANCHO_PANTALLA = Graphics.width
   ALTO_PANTALLA = Graphics.height
-  
+  #===============================================================================
   def initialize
     @sprites = {}
     @viewport = Viewport.new(0, 0, ANCHO_PANTALLA, ALTO_PANTALLA)
@@ -68,7 +68,7 @@ class MinijuegoSaltoValla
     crear_sprites
     crear_primera_valla
   end
-  
+  #===============================================================================
   def crear_sprites
     # Fondo del minijuego
     @sprites["fondo"] = Sprite.new(@viewport)
@@ -163,7 +163,7 @@ class MinijuegoSaltoValla
     
     actualizar_ui
   end
-  
+  #===============================================================================
   def crear_valla(x = ANCHO_PANTALLA + 150)  # ADELANTADO: Aparecen 100 píxeles antes (era +50)
     valla = {
       x: x,
@@ -178,11 +178,11 @@ class MinijuegoSaltoValla
     @vallas.push(valla)
     @vallas_totales_generadas += 1
   end
-  
+  #===============================================================================
   def crear_primera_valla
     crear_valla(ANCHO_PANTALLA / 2 + 100)  # ADELANTADO: Aparece 100 píxeles antes
   end
-  
+  #===============================================================================
   def actualizar_posicion_jugador
     @sprites["jugador"].x = @jugador_x
     @sprites["jugador"].y = @jugador_y
@@ -209,7 +209,7 @@ class MinijuegoSaltoValla
       actualizar_animacion_jugador
     end
   end
-  
+  #===============================================================================
   def actualizar_animacion_jugador
     if @saltando
       @sprites["jugador"].src_rect.x = @frames_salto * @frame_ancho
@@ -235,12 +235,11 @@ class MinijuegoSaltoValla
     
     @sprites["jugador"].src_rect.y = @direccion_derecha * @frame_alto
   end
-  
+  #===============================================================================
   def actualizar_ui
     # Actualizar puntuación (SIN FONDO NEGRO)
     @sprites["puntuacion"].bitmap.clear
-    
-    # Crear función auxiliar para dibujar texto con sombra
+   
     def dibujar_texto_con_sombra(bitmap, x, y, ancho, alto, texto, alineacion, color_sombra = Color.new(0, 0, 0, 255), color_texto = Color.new(255, 255, 255))
       # Sombra
       bitmap.font.color = color_sombra
@@ -334,7 +333,7 @@ class MinijuegoSaltoValla
       @sprites["vidas"].bitmap.draw_text(66, 15, 120, 25, "x #{@vidas}", 0)
     end
   end
-  
+  #===============================================================================
   def dibujar_vallas
     @vallas.each do |valla|
       unless valla[:sprite]
@@ -353,7 +352,7 @@ class MinijuegoSaltoValla
       valla[:sprite].y = valla[:y]
     end
   end
-  
+  #===============================================================================
   def saltar
     if !@saltando && @velocidad_salto == 0
       @saltando = true
@@ -365,7 +364,7 @@ class MinijuegoSaltoValla
       pbSEPlay("jump1")
     end
   end
-  
+  #===============================================================================
   def actualizar_fisica_jugador
     if @saltando || @velocidad_salto != 0
       @tiempo_salto += 1
@@ -390,7 +389,7 @@ class MinijuegoSaltoValla
     
     actualizar_posicion_jugador
   end
-  
+  #===============================================================================
   def actualizar_vallas
     @vallas.each_with_index do |valla, index|
       valla[:x] -= @velocidad_vallas
@@ -452,7 +451,7 @@ class MinijuegoSaltoValla
     
     dibujar_vallas
   end
-  
+  #===============================================================================
   def verificar_colisiones
     return if @tiempo_invulnerable > 0
     
@@ -478,7 +477,7 @@ class MinijuegoSaltoValla
       end
     end
   end
-  
+  #===============================================================================
   def perder_vida
     @vidas -= 1
     @tiempo_invulnerable = 120
@@ -497,7 +496,7 @@ class MinijuegoSaltoValla
       @motivo_game_over = "vidas"
     end
   end
-  
+  #===============================================================================
   def actualizar_invulnerabilidad
     if @tiempo_invulnerable > 0
       @tiempo_invulnerable -= 1
@@ -506,7 +505,7 @@ class MinijuegoSaltoValla
       @sprites["jugador"].opacity = 255
     end
   end
-  
+  #===============================================================================
   def crear_mensaje_penalizacion
     if @sprites["penalizacion"]
       @sprites["penalizacion"].dispose
@@ -528,7 +527,7 @@ class MinijuegoSaltoValla
     
     @tiempo_mensaje_penalizacion = 90
   end
-  
+  #===============================================================================
   def actualizar_timer
     @tiempo_restante -= 1.0 / @frames_por_segundo
     
@@ -551,7 +550,7 @@ class MinijuegoSaltoValla
       end
     end
   end
-  
+  #===============================================================================
   def manejar_input
     if Input.trigger?(Input::USE) || Input.trigger?(Input::ACTION)
       if @juego_activo
@@ -563,7 +562,7 @@ class MinijuegoSaltoValla
     
     return true
   end
-  
+  #===============================================================================
   def actualizar
     return false unless manejar_input
     
@@ -582,7 +581,7 @@ class MinijuegoSaltoValla
     Input.update
     return true
   end
-  
+  #===============================================================================
   def mostrar_resultado_final
     unless @resultado_mostrado
       @sprites["resultado"] = Sprite.new(@viewport)
@@ -638,7 +637,7 @@ class MinijuegoSaltoValla
       determinar_recompensa
     end
   end
-  
+  #===============================================================================
   def determinar_recompensa
     # Solo dar recompensa si completa el minijuego (victoria)
     if @victoria
@@ -678,11 +677,11 @@ class MinijuegoSaltoValla
     @recompensa[:exito_rate] = (@vallas_pasadas.to_f / [@vallas_superadas, 1].max.to_f * 100).round
     @recompensa[:motivo_game_over] = @motivo_game_over if @game_over
   end
-  
+  #===============================================================================
   def obtener_recompensa
     return @recompensa
   end
-  
+  #===============================================================================
   def limpiar
     # Detener BGM correctamente
     begin
@@ -764,4 +763,4 @@ end
 # El minijuego se ejecutará y al terminar (sin importar el resultado)
 # el jugador será teleportado al MAPA 025, coordenadas (29,9) mirando a la derecha
 #
-#===============================================================================do_con_sombra(@sprites["resultado"].bitmap, 0, 20, 400, 40, "¡COMPLETADO!", 1, Color.new(0, 0, 0, 255), Color.new(100, 255, 100))
+#===============================================================================do_con_sombra(@sprites["resultado"].bitmap, 0, 20, 400, 40, "¡COMPLETADO!", 1, Color.new(0, 0, 0, 255), Color.new(100, 255, 100))BBBB   

@@ -1,5 +1,34 @@
 ﻿# Consulta la documentación en la wiki para aprender cómo editar este archivo.
 #-------------------------------
+[048] # Pueblo Berdán
+LandDay,21
+    40,POOCHYENA,2,3
+    25,HOPPIP,2,3
+    25,TAILLOW,2,3
+    10,AZURILL,2,3
+LandNight,21
+    40,NICKIT,2,3
+    25,HOOTHOOT,2,3
+    25,WINGULL,2,3
+    10,PICHU,2,3
+#-------------------------------
+[080] # Costa Freya
+GoodRod
+    40,WAILMER,5
+    40,BARBOACH,5
+    20,KRABBY,5      
+OldRod
+    70,MAGIKARP,5
+    20,TENTACOOL,5
+    10,GOLDEEN,5
+SuperRod
+    40,GOLDEEN,5
+    20,CORPHISH,5
+    20,REMORAID,5
+    10,FEEBAS,5
+Water,2
+    20,BULBASAUR,5
+#-------------------------------
 [084] # Jardín Inf Izq
 LandNight,21
     40,GRUBBIN,4,5
@@ -13,4 +42,54 @@ LandNight,21
     25,PETILIL,4,5
     25,SPINARAK,4,5
     10,DWEBBLE,4,5
+#-------------------------------
+[086] # Jardín Freya Central
+LandNight,21
+    40,BLIPBUG,4,5
+    25,BOUNSWEET,4,5
+    25,SEWADDLE,4,5
+    10,NINCADA,4,5
+#-------------------------------
+[087] # Jardín Superior
+LandNight,21
+    40,BLIPBUG,4,5
+    25,BOUNSWEET,4,5
+    25,SEWADDLE,4,5
+    10,NINCADA,4,5
+#-------------------------------
+[091] # Academia Central 
+LandDay,21
+    40,LILLIPUP,6,7
+    25,HOUNDOUR,6,7
+    25,POLIWAG,6,7
+    10,ELECTRIKE,6,7
+LandNight,21
+    40,YUNGOOS,6,7
+    25,PONYTA,6,7
+    25,SHINX,6,7
+    10,ROCKRUFF,6,7
+#-------------------------------
+[092] # Prezona Estadio
+LandDay,21
+    40,MACHOP,6,7
+    25,ZIGZAGOON,6,7
+    25,SNUBBULL,6,7
+    10,YAMPER,6,7   
+LandNight,21
+    40,SKITTY,6,7
+    25,SMOLIV,6,7
+    25,CROAGUNK,6,7
+    10,IMPIDIMP,6,7
+#-------------------------------
+[132] # Ruta 2
+LandDay,21
+    40,FLETCHLING,13,14
+    20,LOTAD,13,14
+    20,BUNEARY,13,14
+    5,LOTAD,13,14
+    5,BUNEARY,13,14
+    10,VENIPEDE,13,14
+LandNight,21
+
+
 #-------------------------------

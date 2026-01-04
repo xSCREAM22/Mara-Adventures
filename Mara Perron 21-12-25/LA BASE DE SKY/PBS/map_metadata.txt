@@ -454,7 +454,7 @@ MapPosition = 0,23,10
 SnapEdges = true
 #-------------------------------
 [083]   # Ruta Freya 
-Name = Ruta Freya 
+Name = Ruta Freya
 Outdoor = true
 Bicycle = true
 HealingSpot = 83,9,36
@@ -522,7 +522,7 @@ MapPosition = 0,25,3
 SnapEdges = true
 #-------------------------------
 [091]   # Academia Central 
-Name = Academia Central 
+Name = Academia Central
 Outdoor = true
 ShowArea = true
 Bicycle = true
@@ -532,7 +532,9 @@ SnapEdges = true
 #-------------------------------
 [092]   # Prezona Estadio
 Name = Prezona Estadio
+Outdoor = true
 ShowArea = true
+Bicycle = true
 MapPosition = 0,24,2
 SnapEdges = true
 Environment = Grass
